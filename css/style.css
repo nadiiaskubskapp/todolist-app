@@ -55,7 +55,7 @@ body {
   /* Use Daisy UI's border color */
   border: 1px solid oklch(var(--b3));
   padding: 24px;
-  animation: slideUp 1s ease-out;
+  animation: slideUp 0.5s ease-out;
 }
 
 @keyframes slideUp {

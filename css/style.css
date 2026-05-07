@@ -11,7 +11,7 @@
 :root {
   --shadow-light: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
   --shadow-medium: 0 8px 32px 0 rgba(0, 0, 0, 0.1);
-  --border-radius: 12px;
+  --border-radius: 20px;
 }
 
 /* Let Daisy UI handle the body background through themes */
@@ -84,7 +84,7 @@ header h1 {
   margin-bottom: 16px;
   text-align: center;
   /* Use Daisy UI's primary color for the gradient */
-  background: linear-gradient(135deg, oklch(var(--p)), oklch(var(--s)));
+  background: linear-gradient(90deg, #ff6b6b, #4ecdc4);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;

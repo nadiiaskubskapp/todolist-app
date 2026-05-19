@@ -1,5 +1,7 @@
 ## Simple Todo List App Docs
 
+[![CI/CD Pipeline](https://github.com/nadiiaskubskapp/todolist-app/actions/workflows/main.yml/badge.svg)](https://github.com/nadiiaskubskapp/todolist-app/actions/workflows/main.yml)
+
 ## 1. Project Overview
 
 TO-DOIT — це вебдодаток, розроблений для допомоги користувачам у керуванні завданнями. Він надає зручний інтерфейс для додавання, редагування та видалення завдань. Додаток також підтримує фільтрацію завдань за статусом (Усі, Очікують, Завершені) та містить перемикач тем для персоналізації користувацького досвіду.

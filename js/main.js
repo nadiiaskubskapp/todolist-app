@@ -1216,9 +1216,21 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 });
 
+// Відображення змінної оточення
+document.addEventListener('DOMContentLoaded', () => {
+  const statusBadge = document.getElementById('app-status-badge');
+  if (statusBadge) {
+    const status = typeof import.meta !== 'undefined' && import.meta.env
+      ? import.meta.env.VITE_APP_STATUS
+      : 'Development';
+    statusBadge.textContent = status || 'Development';
+  }
+});
+
 // Legacy support for existing onclick handlers
 window.filterTodos = function (status) {
   if (todoApp && todoApp.uiManager) {
     todoApp.uiManager.handleFilterTodos(status);
   }
 };
+

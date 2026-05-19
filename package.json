@@ -6,7 +6,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "lint": "eslint js/main.js"
+    "lint": "eslint js/main.js",
+    "test:unit": "vitest"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
